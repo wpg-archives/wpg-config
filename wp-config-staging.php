@@ -1,7 +1,7 @@
 <?php
 
 /* DATABASE */
-define( 'DB_NAME',     'staging' );
+define( 'DB_NAME',     'staging_myproject' );
 define( 'DB_USER',     'username' );
 define( 'DB_PASSWORD', 'password' );
 define( 'DB_HOST',     'localhost' );
