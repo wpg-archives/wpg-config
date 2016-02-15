@@ -50,7 +50,7 @@ define( 'ALTERNATE_WP_CRON',    false );
 define( 'WP_CRON_LOCK_TIMEOUT', 60 );
 
 if( empty( $envs[ WP_ENV ] ) ) {
-	wp_die( 'You must declare your environment in wp-config-common.php', 'Please complete configuration files' );
+	die( 'You must declare your environment in wp-config-common.php', 'Please complete configuration files' );
 }
 
 /* DIRECTORIES */
