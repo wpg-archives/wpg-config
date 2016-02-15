@@ -2,7 +2,7 @@
 
 /* ENVIRONMENTS */
 $envs = [
-  'development-foobar' => 'http://127.0.0.1/dev/foobar/myproject/',
+  'development-foobar' => 'http://127.0.0.1/dev/foobar/myproject',
   'staging'            => 'http://staging.example.com',
   'production'         => 'http://example.com'
 ];
@@ -47,7 +47,7 @@ if( empty( $envs[ WP_ENV ] ) ) {
 define( 'WP_DIR',          ABSPATH );
 define( 'WP_URL',          $envs[ WP_ENV ] );
 define( 'WP_CONTENT_DIR',  WP_DIR . 'app' );
-define( 'WP_CONTENT_URL',  WP_URL . 'app' );
+define( 'WP_CONTENT_URL',  WP_URL . '/app' );
 define( 'WP_PLUGIN_DIR',   WP_CONTENT_DIR . '/modules' );
 define( 'WP_PLUGIN_URL',   WP_CONTENT_URL . '/modules' );
 define( 'WPMU_PLUGIN_DIR', WP_CONTENT_DIR . '/mu-modules' );
