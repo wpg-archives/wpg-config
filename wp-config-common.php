@@ -3,8 +3,8 @@
 /* ENVIRONMENTS */
 $envs = [
   'development-foobar' => 'http://127.0.0.1/dev/foobar/myproject/',
-  'staging'            => 'http://staging.myproject.com',
-  'production'         => 'http://myproject.com'
+  'staging'            => 'http://staging.example.com',
+  'production'         => 'http://example.com'
 ];
 define('ENVIRONMENTS', serialize($envs));
 
