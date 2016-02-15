@@ -52,8 +52,8 @@ define( 'WP_PLUGIN_DIR',   WP_CONTENT_DIR . '/modules' );
 define( 'WP_PLUGIN_URL',   WP_CONTENT_URL . '/modules' );
 define( 'WPMU_PLUGIN_DIR', WP_CONTENT_DIR . '/mu-modules' );
 define( 'WPMU_PLUGIN_URL', WP_CONTENT_URL . '/mu-modules' );
-define( 'WP_THEME_DIR',    WP_CONTENT_DIR . '/view' );
-define( 'WP_THEME_URL',    WP_CONTENT_URL . '/view' );
+/*define( 'WP_THEME_DIR',    WP_CONTENT_DIR . '/view' );*/
+/*define( 'WP_THEME_URL',    WP_CONTENT_URL . '/view' );*/
 define( 'UPLOADS',        'media' );
 
 /* SALT KEYS */
