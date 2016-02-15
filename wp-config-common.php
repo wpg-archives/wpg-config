@@ -12,7 +12,7 @@ define('ENVIRONMENTS', serialize($envs));
 define( 'DB_CHARSET',  'utf8' );
 define( 'DB_COLLATE',  '' );
 define( 'SAVEQUERIES', false );
-$table_prefix  =       'myprefix_';
+$table_prefix  =       'xx_';
 
 /* SALT KEYS */
 define('AUTH_KEY',         'https://api.wordpress.org/secret-key/1.1/salt/');
