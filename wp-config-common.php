@@ -12,17 +12,7 @@ define('ENVIRONMENTS', serialize($envs));
 define( 'DB_CHARSET',  'utf8' );
 define( 'DB_COLLATE',  '' );
 define( 'SAVEQUERIES', false );
-$table_prefix  =       'xx_';
-
-/* SALT KEYS */
-define('AUTH_KEY',         'https://api.wordpress.org/secret-key/1.1/salt/');
-define('SECURE_AUTH_KEY',  'https://api.wordpress.org/secret-key/1.1/salt/');
-define('LOGGED_IN_KEY',    'https://api.wordpress.org/secret-key/1.1/salt/');
-define('NONCE_KEY',        'https://api.wordpress.org/secret-key/1.1/salt/');
-define('AUTH_SALT',        'https://api.wordpress.org/secret-key/1.1/salt/');
-define('SECURE_AUTH_SALT', 'https://api.wordpress.org/secret-key/1.1/salt/');
-define('LOGGED_IN_SALT',   'https://api.wordpress.org/secret-key/1.1/salt/');
-define('NONCE_SALT',       'https://api.wordpress.org/secret-key/1.1/salt/');
+$table_prefix  =       'wp_';
 
 /* THEME */
 define( 'WP_DEFAULT_THEME', 'mytheme' );
@@ -65,3 +55,6 @@ define( 'WPMU_PLUGIN_URL', WP_CONTENT_URL . '/mu-modules' );
 define( 'WP_THEME_DIR',    WP_CONTENT_DIR . '/view' );
 define( 'WP_THEME_URL',    WP_CONTENT_URL . '/view' );
 define( 'UPLOADS',        'media' );
+
+/* SALT KEYS */
+/* @see https://api.wordpress.org/secret-key/1.1/salt/ */
