@@ -11,7 +11,6 @@ define('ENVIRONMENTS', serialize($envs));
 /* DATABASE */
 define( 'DB_CHARSET',  'utf8' );
 define( 'DB_COLLATE',  '' );
-define( 'SAVEQUERIES', false );
 $table_prefix  =       'wp_';
 
 /* THEME */
