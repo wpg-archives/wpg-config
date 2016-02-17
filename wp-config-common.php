@@ -55,5 +55,8 @@ define( 'WPMU_PLUGIN_URL', WP_CONTENT_URL . '/mu-modules' );
 /*define( 'WP_THEME_URL',    WP_CONTENT_URL . '/view' );*/
 define( 'UPLOADS',        'media' );
 
+/* GOOGLE ANALYTICS */
+define( 'GOOGLE_ANALYTICS_CODE', 'UA-XXXXX-Y' );
+
 /* SALT KEYS */
 /* @see https://api.wordpress.org/secret-key/1.1/salt/ */
