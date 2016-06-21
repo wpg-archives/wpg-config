@@ -1,7 +1,8 @@
 <?php
 
-define( 'WP_ENV', 'development-foobar' );
+define( 'WP_ENV', 'development' );
 
+require_once( ABSPATH . '/wp-config/wp-config-database.php' );
 require_once( ABSPATH . '/wp-config/wp-config-common.php' );
 require_once( ABSPATH . '/wp-config/wp-config-' . WP_ENV . '.php' );
 

@@ -1,11 +1,5 @@
 <?php
 
-/* DATABASE */
-define( 'DB_NAME',     'foobar_myproject' );
-define( 'DB_USER',     'username' );
-define( 'DB_PASSWORD', 'password' );
-define( 'DB_HOST',     'localhost' );
-
 /* DEBUG */
 define( 'WP_DEBUG',         true );
 define( 'WP_DEBUG_LOG',     true );
