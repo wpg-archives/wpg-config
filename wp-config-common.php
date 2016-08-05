@@ -33,11 +33,6 @@ define( 'COMPRESS_SCRIPTS',    true );
 define( 'CONCATENATE_SCRIPTS', true );
 define( 'ENFORCE_GZIP',        true );
 
-/* WP-CRON */
-define( 'DISABLE_WP_CRON',      false );
-define( 'ALTERNATE_WP_CRON',    false );
-define( 'WP_CRON_LOCK_TIMEOUT', 60 );
-
 if( empty( $envs[ WP_ENV ] ) ) {
 	die( 'You must declare your environment in wp-config-common.php' );
 }
