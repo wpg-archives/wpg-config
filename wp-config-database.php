@@ -1,7 +1,7 @@
 <?php
 
 /* DATABASE */
-define( 'DB_NAME',     'foobar_myproject' );
-define( 'DB_USER',     'username' );
-define( 'DB_PASSWORD', 'password' );
-define( 'DB_HOST',     'localhost' );
+define( 'DB_NAME',     '<DB_NAME>' );
+define( 'DB_USER',     '<DB_USER>' );
+define( 'DB_PASSWORD', '<DB_PASSWORD>' );
+define( 'DB_HOST',     '<DB_HOST>' );

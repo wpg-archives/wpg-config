@@ -12,7 +12,7 @@ define( 'FORCE_SSL_ADMIN',    false );
 
 /* AUTOSAVE, REVISIONS, TRASH */
 define( 'AUTOSAVE_INTERVAL', '300' );
-define( 'WP_POST_REVISIONS', false );
+define( 'WP_POST_REVISIONS', 10 );
 define( 'MEDIA_TRASH',       false );
 define( 'EMPTY_TRASH_DAYS',  '50' );
 

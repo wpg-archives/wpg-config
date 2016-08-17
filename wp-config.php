@@ -1,6 +1,7 @@
 <?php
 
-define( 'WP_ENV', 'development' );
+define( 'WP_ENV',   'development' );
+define( 'WP_STAGE', 'development-<USERNAME>' );
 
 require_once( ABSPATH . '/wp-config/wp-config-database.php' );
 require_once( ABSPATH . '/wp-config/wp-config-common.php' );
