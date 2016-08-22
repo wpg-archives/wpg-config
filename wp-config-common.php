@@ -52,8 +52,8 @@ define( 'ENFORCE_GZIP',        true );
 define( 'GOOGLE_ANALYTICS_CODE', 'UA-XXXXX-Y' );
 
 /* WPG MAIL TRAPPING */
-define('WPG_MAIL_INTERCEPTION', false);
-// define('WPG_MAIL_INTERCEPTION', serialize(['admin@example.com','admin2@example.com']));
+define('WPG_MAIL_TRAPPING', false);
+// define('WPG_MAIL_TRAPPING', serialize(['admin@example.com','admin2@example.com']));
 
 /* SALT KEYS */
 /* @see https://api.wordpress.org/secret-key/1.1/salt/ */
