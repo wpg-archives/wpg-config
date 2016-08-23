@@ -13,7 +13,7 @@ define('STAGES', serialize($stages));
 // you should define following paths in a git-ignored config file
 if( !empty( $stages[ WP_STAGE ] ) ) {
 	define( 'WP_DIR',          ABSPATH );
-	define( 'WP_URL',          $stages[ WP_ENV ] );
+	define( 'WP_URL',          $stages[ WP_STAGE ] );
 	define( 'WP_CONTENT_DIR',  WP_DIR . 'app' );
 	define( 'WP_CONTENT_URL',  WP_URL . '/app' );
 	define( 'WP_PLUGIN_DIR',   WP_CONTENT_DIR . '/modules' );
