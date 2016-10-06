@@ -26,7 +26,7 @@ define( 'UPLOADS',        'media' );
 /* DATABASE */
 define( 'DB_CHARSET',  'utf8' );
 define( 'DB_COLLATE',  '' );
-$table_prefix  =       'wp_';
+$table_prefix  =       '<DB_PREFIX>';
 
 /* THEME */
 define( 'WP_DEFAULT_THEME', '<THEME_SLUG>' );
